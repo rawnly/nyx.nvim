@@ -29,7 +29,7 @@ This theme is inspired by the Koda color palette and built on the foundation of 
 - Terminal colors.
 - Supports most major plugins.
 - Supports latest Neovim features.
-- Provides [Nyx](https://github.com/serhez/nyx.nvim)
+- Provides [Nyx](https://github.com/rawnly/nyx.nvim)
   [extras](#-extras) for numerous other applications.
 
 <details>
@@ -179,7 +179,7 @@ Install the theme with your preferred package manager, such as
 
 ```lua
 {
-  "serhez/nyx.nvim",
+  "rawnly/nyx.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
@@ -248,7 +248,7 @@ The theme offers two styles: [darker](#darker) and [light](#light).
 The [light](#light) style is used when `{ style = "light" }` is passed to
 `setup(options)` or when `vim.o.background = "light"`.
 
-[Nyx](https://github.com/serhez/nyx.nvim) uses the default options,
+[Nyx](https://github.com/rawnly/nyx.nvim) uses the default options,
 unless `setup` is explicitly called.
 
 <details>
@@ -303,7 +303,7 @@ M.defaults = {
     auto = true,
     -- add any plugins here that you want to enable
     -- for all possible plugins, see:
-    --   * https://github.com/serhez/nyx.nvim/tree/main/lua/nyx/groups
+    --   * https://github.com/rawnly/nyx.nvim/tree/main/lua/nyx/groups
     -- telescope = true,
   },
 }
