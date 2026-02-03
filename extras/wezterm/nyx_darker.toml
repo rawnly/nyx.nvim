@@ -1,0 +1,45 @@
+[colors]
+foreground = "#b0b0b0"
+background = "#101010"
+cursor_bg = "#b0b0b0"
+cursor_border = "#b0b0b0"
+cursor_fg = "#101010"
+selection_bg = "#393939"
+selection_fg = "#b0b0b0"
+split = "#458ee6"
+compose_cursor = "#FF7038"
+scrollbar_thumb = "#272727"
+
+ansi = ["#0d0d0d", "#ff7676", "#86cd82", "#FF7038", "#458ee6", "#f2a4db", "#5abfb5", "#777777"]
+brights = ["#272727", "#701516", "#5abfb5", "#d9ba73", "#8ebeec", "#f2a4db", "#5abfb5", "#b0b0b0"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#0c0c0c"
+background = "#101010"
+
+[colors.tab_bar.active_tab]
+fg_color = "#0c0c0c"
+bg_color = "#458ee6"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#777777"
+bg_color = "#272727"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#458ee6"
+bg_color = "#272727"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#458ee6"
+bg_color = "#101010"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#458ee6"
+bg_color = "#101010"
+
+[metadata]
+aliases = []
+author = "folke & serhez"
+name = "nyx_darker"

@@ -1,0 +1,28 @@
+{
+  "name": "Nyx Light",
+  "version": 1,
+  "shared": {
+    "backgroundColor": "#faf9f5",
+    "colorPaletteOverrides": [
+      "#c8c7c4",
+      "#ca0043",
+      "#407f00",
+      "#FF7038",
+      "#0A89FF",
+      "#f2a4db",
+      "#5abfb5",
+      "#3d3d3d",
+      "#ebebeb",
+      "#701516",
+      "#5abfb5",
+      "#b07700",
+      "#0253be",
+      "#f2a4db",
+      "#5abfb5",
+      "#101010",
+    ],
+    "cursorColor": "#101010",
+    "foregroundColor": "#101010"
+  }
+}
+

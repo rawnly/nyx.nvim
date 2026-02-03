@@ -1,0 +1,26 @@
+{
+    "name": "Nyx Light",
+    "comment": "",
+    "use-theme-colors": false,
+    "foreground-color": "#101010",
+    "background-color": "#faf9f5",
+    "palette": [
+        "#c8c7c4",
+        "#ca0043",
+        "#407f00",
+        "#b07700",
+        "#0A89FF",
+        "#f2a4db",
+        "#5abfb5",
+        "#3d3d3d",
+        "#ebebeb",
+        "#ca0043",
+        "#407f00",
+        "#b07700",
+        "#0A89FF",
+        "#f2a4db",
+        "#5abfb5",
+        "#101010"
+    ]
+}
+  

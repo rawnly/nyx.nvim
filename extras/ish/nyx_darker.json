@@ -1,0 +1,28 @@
+{
+  "name": "Nyx Darker",
+  "version": 1,
+  "shared": {
+    "backgroundColor": "#101010",
+    "colorPaletteOverrides": [
+      "#0d0d0d",
+      "#ff7676",
+      "#86cd82",
+      "#FF7038",
+      "#458ee6",
+      "#f2a4db",
+      "#5abfb5",
+      "#777777",
+      "#272727",
+      "#701516",
+      "#5abfb5",
+      "#d9ba73",
+      "#8ebeec",
+      "#f2a4db",
+      "#5abfb5",
+      "#b0b0b0",
+    ],
+    "cursorColor": "#b0b0b0",
+    "foregroundColor": "#b0b0b0"
+  }
+}
+

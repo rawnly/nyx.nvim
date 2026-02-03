@@ -1,0 +1,18 @@
+# Import this theme as follows:
+# 1. Create a new profile for GNOME Terminal
+# 2. Copy the UUID of the new profile (bottom right corner of the preferences window)
+# 3. Replace <PROFILE_UUID> below with the copied UUID
+# 4. Execute `dconf load /org/gnome/terminal/legacy/profiles:/ < nyx_light.dconf`
+
+[:<PROFILE_UUID>]
+background-color='rgb(250, 249, 245)'
+cursor-background-color='rgb(16, 16, 16)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(250, 249, 245)'
+foreground-color='rgb(16, 16, 16)'
+highlight-background-color='rgb(16, 16, 16)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(250, 249, 245)'
+palette=['rgb(235, 235, 235)', 'rgb(202, 0, 67)', 'rgb(64, 127, 0)', 'rgb(176, 119, 0)', 'rgb(10, 137, 255)', 'rgb(242, 164, 219)', 'rgb(90, 191, 181)', 'rgb(16, 16, 16)', 'rgb(235, 235, 235)', 'rgb(202, 0, 67)', 'rgb(64, 127, 0)', 'rgb(176, 119, 0)', 'rgb(10, 137, 255)', 'rgb(242, 164, 219)', 'rgb(90, 191, 181)', 'rgb(16, 16, 16)']
+use-theme-colors=false
+visible-name='Nyx Light'

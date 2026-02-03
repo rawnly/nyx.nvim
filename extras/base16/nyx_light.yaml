@@ -1,0 +1,21 @@
+system: "base16"
+name: "Nyx"
+author: "Sergio Hernandez"
+variant: "light"
+palette:
+  base00: #faf9f5
+  base01: #faf9f6
+  base02: #0A89FF
+  base03: #ebebeb
+  base04: #0253be
+  base05: #969ba5
+  base06: #3d3d3d
+  base07: #101010
+  base08: #ca0043
+  base09: #FF7038
+  base0A: #FF7038
+  base0B: #407f00
+  base0C: #0A89FF
+  base0D: #f2a4db
+  base0E: #f2a4db
+  base0F: #701516

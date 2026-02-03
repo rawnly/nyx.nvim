@@ -1,0 +1,9 @@
+[Scheme]
+Name="nyx_light"
+ColorBackground=#faf9f5
+ColorForeground=#101010
+
+ColorSelectionBackground=#aeaeab
+ColorSelection=#101010
+
+ColorPalette=#c8c7c4;#ca0043;#407f00;#b07700;#0A89FF;#f2a4db;#5abfb5;#3d3d3d;#ebebeb;#ca0043;#407f00;#b07700;#0A89FF;#f2a4db;#5abfb5;#101010

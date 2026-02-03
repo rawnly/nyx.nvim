@@ -1,0 +1,38 @@
+# Nyx color theme for Zathura
+# Swaps Foreground for Background to get a light version if the user prefers
+#
+# Nyx color theme
+#
+set notification-error-bg "#ff7676"
+set notification-error-fg "#b0b0b0"
+set notification-warning-bg "#d9ba73"
+set notification-warning-fg "#272727"
+set notification-bg "#101010"
+set notification-fg "#b0b0b0"
+set completion-bg "#101010"
+set completion-fg "#777777"
+set completion-group-bg "#101010"
+set completion-group-fg "#777777"
+set completion-highlight-bg "#272727"
+set completion-highlight-fg "#b0b0b0"
+set index-bg "#101010"
+set index-fg "#b0b0b0"
+set index-active-bg "#272727"
+set index-active-fg "#b0b0b0"
+set inputbar-bg "#101010"
+set inputbar-fg "#b0b0b0"
+set statusbar-bg "#101010"
+set statusbar-fg "#b0b0b0"
+set highlight-color "#d9ba73"
+set highlight-active-color "#86cd82"
+set default-bg "#101010"
+set default-fg "#b0b0b0"
+set render-loading true
+set render-loading-fg "#101010"
+set render-loading-bg "#b0b0b0"
+#
+# Recolor mode settings
+# <C-r> to switch modes
+#
+set recolor-lightcolor "#101010"
+set recolor-darkcolor "#b0b0b0"

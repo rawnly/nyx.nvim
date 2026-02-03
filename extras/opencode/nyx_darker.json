@@ -1,0 +1,292 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "bg": "#101010",
+    "bg_dark": "#0c0c0c",
+    "bg_darker": "#0a0a0a",
+    "bg_dimmed": "#0e0e0e",
+    "bg_float": "#0a0a0a",
+    "bg_highlight": "#272727",
+    "bg_popup": "#0c0c0c",
+    "bg_search": "#254365",
+    "bg_sidebar": "#0c0c0c",
+    "bg_statusline": "#0c0c0c",
+    "bg_visual": "#393939",
+    "black": "#0d0d0d",
+    "blue": "#458ee6",
+    "blue0": "#254365",
+    "blue1": "#8ebeec",
+    "blue2": "#8ebeec",
+    "blue5": "#8ebeec",
+    "blue6": "#8ebeec",
+    "blue7": "#254365",
+    "border": "#0d0d0d",
+    "border_highlight": "#759bc0",
+    "comment": "#50585d",
+    "cyan": "#5abfb5",
+    "cyan2": "#5abfb5",
+    "dark3": "#777777",
+    "dark5": "#b0b0b0",
+    "dark6": "#777777",
+    "dark7": "#b0b0b0",
+    "diff_add": "#113512",
+    "diff_change": "#121519",
+    "diff_delete": "#281112",
+    "diff_text": "#254365",
+    "error": "#701516",
+    "fg": "#b0b0b0",
+    "fg_dark": "#777777",
+    "fg_darker": "#50585d",
+    "fg_float": "#b0b0b0",
+    "fg_gutter": "#272727",
+    "fg_sidebar": "#777777",
+    "fg_sidebar_inactive": "#50585d",
+    "git_add": "#86cd82",
+    "git_change": "#458ee6",
+    "git_delete": "#ff7676",
+    "git_ignore": "#777777",
+    "green": "#86cd82",
+    "green1": "#86cd82",
+    "green2": "#14ba19",
+    "hint": "#5abfb5",
+    "info": "#5abfb5",
+    "magenta": "#f2a4db",
+    "magenta2": "#f2a4db",
+    "orange": "#FF7038",
+    "orange1": "#FF7038",
+    "purple": "#f2a4db",
+    "rainbow_1": "#86cd82",
+    "rainbow_2": "#458ee6",
+    "rainbow_3": "#f2a4db",
+    "rainbow_4": "#d9ba73",
+    "rainbow_5": "#ff7676",
+    "rainbow_6": "#5abfb5",
+    "rainbow_7": "#f2a4db",
+    "rainbow_8": "#FF7038",
+    "red": "#ff7676",
+    "red1": "#701516",
+    "teal": "#5abfb5",
+    "terminal_black": "#272727",
+    "terminal_black_bright": "#272727",
+    "terminal_blue": "#458ee6",
+    "terminal_blue_bright": "#8ebeec",
+    "terminal_cyan": "#5abfb5",
+    "terminal_cyan_bright": "#5abfb5",
+    "terminal_green": "#86cd82",
+    "terminal_green_bright": "#5abfb5",
+    "terminal_magenta": "#f2a4db",
+    "terminal_magenta_bright": "#f2a4db",
+    "terminal_red": "#ff7676",
+    "terminal_red_bright": "#701516",
+    "terminal_white": "#777777",
+    "terminal_white_bright": "#b0b0b0",
+    "terminal_yellow": "#FF7038",
+    "terminal_yellow_bright": "#d9ba73",
+    "todo": "#458ee6",
+    "warning": "#d9ba73",
+    "yellow": "#d9ba73",
+    "yellow1": "#d9ba73"
+  },
+  "theme": {
+    "primary": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "secondary": {
+      "dark": "purple",
+      "light": "purple"
+    },
+    "accent": {
+      "dark": "orange",
+      "light": "orange"
+    },
+    "error": {
+      "dark": "red1",
+      "light": "red1"
+    },
+    "warning": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "success": {
+      "dark": "green",
+      "light": "green"
+    },
+    "info": {
+      "dark": "blue2",
+      "light": "blue2"
+    },
+    "text": {
+      "dark": "fg",
+      "light": "fg"
+    },
+    "textMuted": {
+      "dark": "fg_dark",
+      "light": "fg_dark"
+    },
+    "background": {
+      "dark": "bg",
+      "light": "bg"
+    },
+    "backgroundPanel": {
+      "dark": "bg_dark",
+      "light": "bg_dark"
+    },
+    "backgroundElement": {
+      "dark": "bg_highlight",
+      "light": "bg_highlight"
+    },
+    "border": {
+      "dark": "black",
+      "light": "black"
+    },
+    "borderActive": {
+      "dark": "border_highlight",
+      "light": "border_highlight"
+    },
+    "borderSubtle": {
+      "dark": "dark3",
+      "light": "dark3"
+    },
+    "diffAdded": {
+      "dark": "green1",
+      "light": "green1"
+    },
+    "diffRemoved": {
+      "dark": "red1",
+      "light": "red1"
+    },
+    "diffContext": {
+      "dark": "fg_dark",
+      "light": "fg_dark"
+    },
+    "diffHunkHeader": {
+      "dark": "comment",
+      "light": "comment"
+    },
+    "diffHighlightAdded": {
+      "dark": "git_add",
+      "light": "git_add"
+    },
+    "diffHighlightRemoved": {
+      "dark": "git_delete",
+      "light": "git_delete"
+    },
+    "diffAddedBg": {
+      "dark": "diff_add",
+      "light": "diff_add"
+    },
+    "diffRemovedBg": {
+      "dark": "diff_delete",
+      "light": "diff_delete"
+    },
+    "diffContextBg": {
+      "dark": "bg_highlight",
+      "light": "bg_highlight"
+    },
+    "diffLineNumber": {
+      "dark": "fg_gutter",
+      "light": "fg_gutter"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "diff_add",
+      "light": "diff_add"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "diff_delete",
+      "light": "diff_delete"
+    },
+    "markdownText": {
+      "dark": "fg",
+      "light": "fg"
+    },
+    "markdownHeading": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "markdownLink": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "markdownLinkText": {
+      "dark": "teal",
+      "light": "teal"
+    },
+    "markdownCode": {
+      "dark": "green",
+      "light": "green"
+    },
+    "markdownBlockQuote": {
+      "dark": "comment",
+      "light": "comment"
+    },
+    "markdownEmph": {
+      "dark": "fg",
+      "light": "fg"
+    },
+    "markdownStrong": {
+      "dark": "fg",
+      "light": "fg"
+    },
+    "markdownHorizontalRule": {
+      "dark": "fg_gutter",
+      "light": "fg_gutter"
+    },
+    "markdownListItem": {
+      "dark": "blue5",
+      "light": "blue5"
+    },
+    "markdownListEnumeration": {
+      "dark": "orange",
+      "light": "orange"
+    },
+    "markdownImage": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "markdownImageText": {
+      "dark": "teal",
+      "light": "teal"
+    },
+    "markdownCodeBlock": {
+      "dark": "fg",
+      "light": "fg"
+    },
+    "syntaxComment": {
+      "dark": "comment",
+      "light": "comment"
+    },
+    "syntaxKeyword": {
+      "dark": "purple",
+      "light": "purple"
+    },
+    "syntaxFunction": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "syntaxVariable": {
+      "dark": "fg",
+      "light": "fg"
+    },
+    "syntaxString": {
+      "dark": "green",
+      "light": "green"
+    },
+    "syntaxNumber": {
+      "dark": "orange",
+      "light": "orange"
+    },
+    "syntaxType": {
+      "dark": "blue1",
+      "light": "blue1"
+    },
+    "syntaxOperator": {
+      "dark": "blue5",
+      "light": "blue5"
+    },
+    "syntaxPunctuation": {
+      "dark": "fg_dark",
+      "light": "fg_dark"
+    }
+  }
+}

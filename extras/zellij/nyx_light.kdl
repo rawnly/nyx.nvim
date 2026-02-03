@@ -1,0 +1,22 @@
+// Nyx Zellij Colors
+// Add this file to your `CONFIG_DIR/themes` directory as described here:
+// https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme
+
+themes {
+    nyx_light {
+        fg "#101010"
+        bg "#ebebeb"
+        // Black should match the terminal background color
+        // This ensures the top and bottom bars are transparent
+        black "#faf9f5"
+        red "#ca0043"
+        green "#407f00"
+        yellow "#b07700"
+        blue "#0A89FF"
+        magenta "#f2a4db"
+        cyan "#5abfb5"
+        white "#3d3d3d"
+        orange "#FF7038"
+    }
+}
+

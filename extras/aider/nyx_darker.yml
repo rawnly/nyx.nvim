@@ -1,0 +1,16 @@
+assistant-output-color: "#b0b0b0"
+
+# see the aider extra README for more information about setting the `code-theme`
+# https://github.com/serhez/nyx.nvim/blob/extras/aider/README.md
+# code-theme: nyx-darker
+
+completion-menu-color: "#b0b0b0"
+completion-menu-bg-color: "#0a0a0a"
+completion-menu-current-color: "#b0b0b0"
+completion-menu-current-bg-color: "#272727"
+
+tool-error-color: "#701516"
+tool-output-color: "#458ee6"
+tool-warning-color: "#d9ba73"
+
+user-input-color: "#86cd82"

@@ -1,0 +1,17 @@
+# Nyx colors for dunst
+# For more configuration options see https://github.com/dunst-project/dunst/blob/master/dunstrc
+
+[urgency_low]
+    background = "#faf9f6"
+    foreground = "#101010"
+    frame_color = "#101010"
+
+[urgency_normal]
+    background = "#faf9f5"
+    foreground = "#101010"
+    frame_color = "#101010"
+
+[urgency_critical]
+    background = "#ebebeb"
+    foreground = "#701516"
+    frame_color = "#701516"

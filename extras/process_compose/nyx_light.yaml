@@ -1,0 +1,36 @@
+style:
+  name: nyx_light
+  body:
+    fgColor: '#101010'
+    bgColor: '#faf9f6'
+    secondaryTextColor: '#3d3d3d'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#ebebeb'
+  stat_table:
+    keyFgColor: '#b07700'
+    valueFgColor: '#101010'
+    logoColor: '#b07700'
+  proc_table:
+    fgColor: '#0A89FF'
+    fgWarning: '#b07700'
+    fgPending: '#3d3d3d'
+    fgCompleted: '#407f00'
+    fgError: '#701516'
+    headerFgColor: '#101010'
+  help:
+    fgColor: '#0253be'
+    keyColor: '#101010'
+    hlColor: '#407f00'
+    categoryFgColor: '#0A89FF'
+  dialog:
+    fgColor: '#0253be'
+    bgColor: '#c8c7c4'
+    contrastBgColor: '#faf9f5'
+    attentionBgColor: '#701516'
+    buttonFgColor: '#c8c7c4'
+    buttonBgColor: '#ebebeb'
+    buttonFocusFgColor: '#c8c7c4'
+    buttonFocusBgColor: '#0A89FF'
+    labelFgColor: '#b07700'
+    fieldFgColor: '#c8c7c4'
+    fieldBgColor: '#0A89FF'

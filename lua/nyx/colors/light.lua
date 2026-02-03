@@ -1,0 +1,50 @@
+local Util = require("nyx.util")
+
+-- Koda light palette colors
+local bg = "#faf9f5"
+local fg = "#101010"
+
+return {
+  bg = bg,
+  bg_dark = Util.blend(bg, 0.95, "#ffffff"),
+  bg_darker = Util.blend(bg, 0.90, "#ffffff"),
+  bg_dimmed = Util.blend(bg, 0.97, "#ffffff"),
+  bg_highlight = "#ebebeb",
+  blue = "#0A89FF",
+  blue0 = "#0253be",
+  blue1 = "#0253be",
+  blue2 = "#0253be",
+  blue5 = "#0A89FF",
+  blue6 = "#0A89FF",
+  blue7 = "#0A89FF",
+  comment = "#969ba5",
+  cyan = "#5abfb5",
+  cyan2 = "#5abfb5",
+  dark3 = "#3d3d3d",
+  dark5 = "#101010",
+  dark6 = "#3d3d3d",
+  dark7 = "#101010",
+  fg = fg,
+  fg_dark = "#3d3d3d",
+  fg_darker = "#969ba5",
+  fg_gutter = "#ebebeb",
+  green = "#407f00",
+  green1 = "#407f00",
+  green2 = "#019833",
+  magenta = "#f2a4db",
+  magenta2 = "#f2a4db",
+  orange = "#FF7038",
+  orange1 = "#FF7038",
+  purple = "#f2a4db",
+  red = "#ca0043",
+  red1 = "#701516",
+  teal = "#5abfb5",
+  terminal_black = "#ebebeb",
+  yellow = "#b07700",
+  yellow1 = "#b07700",
+  git = {
+    add = "#407f00",
+    change = "#0A89FF",
+    delete = "#ca0043",
+  },
+}

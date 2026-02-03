@@ -1,0 +1,25 @@
+    # Nyx
+
+# Syntax Highlighting Colors
+fish_color_normal b0b0b0
+fish_color_command 5abfb5
+fish_color_keyword f2a4db
+fish_color_quote d9ba73
+fish_color_redirection b0b0b0
+fish_color_end FF7038
+fish_color_option f2a4db
+fish_color_error ff7676
+fish_color_param f2a4db
+fish_color_comment 50585d
+fish_color_selection --background=393939
+fish_color_search_match --background=393939
+fish_color_operator 86cd82
+fish_color_escape f2a4db
+fish_color_autosuggestion 50585d
+
+# Completion Pager Colors
+fish_pager_color_progress 50585d
+fish_pager_color_prefix 5abfb5
+fish_pager_color_completion b0b0b0
+fish_pager_color_description 50585d
+fish_pager_color_selected_background --background=393939

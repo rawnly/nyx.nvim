@@ -1,0 +1,32 @@
+# -----------------------------------------------------------------------------
+# Nyx Alacritty Colors
+# Theme: Nyx Light
+# Upstream: https://github.com/serhez/nyx.nvim/raw/main/extras/alacritty/nyx_light.toml
+# -----------------------------------------------------------------------------
+
+# Default colors
+[colors.primary]
+background = '#faf9f5'
+foreground = '#101010'
+
+# Normal colors
+[colors.normal]
+black = '#c8c7c4'
+red = '#ca0043'
+green = '#407f00'
+yellow = '#FF7038'
+blue = '#0A89FF'
+magenta = '#f2a4db'
+cyan = '#5abfb5'
+white = '#3d3d3d'
+
+# Bright colors
+[colors.bright]
+black = '#ebebeb'
+red = '#701516'
+green = '#5abfb5'
+yellow = '#b07700'
+blue = '#0253be'
+magenta = '#f2a4db'
+cyan = '#5abfb5'
+white = '#101010'
