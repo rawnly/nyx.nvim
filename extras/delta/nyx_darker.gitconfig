@@ -1,8 +1,8 @@
 [delta]
-  minus-style                   = syntax "#281112"
-  minus-non-emph-style          = syntax "#281112"
-  minus-emph-style              = syntax "#3b1213"
-  minus-empty-line-marker-style = syntax "#281112"
+  minus-style                   = syntax "#4c3232"
+  minus-non-emph-style          = syntax "#4c3232"
+  minus-emph-style              = syntax "#7c4e4e"
+  minus-empty-line-marker-style = syntax "#4c3232"
   line-numbers-minus-style      = "#ff7676"
   plus-style                    = syntax "#113512"
   plus-non-emph-style           = syntax "#113512"

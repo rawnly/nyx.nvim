@@ -8,7 +8,7 @@
   --text-link-low-saturation: #8ebeec;
   --text-positive: #5abfb5;
   --text-warning: #d9ba73;
-  --text-danger: #ff7676;
+  --text-danger: #701516;
   --text-brand: #458ee6;
   --background-primary: #101010;
   --bg-base-primary: #101010;
@@ -38,8 +38,8 @@
   --info-warning-background: #d9ba7326;
   --info-warning-foreground: #d9ba73;
   --info-warning-text: #b0b0b0;
-  --info-danger-background:#ff767626;
-  --info-danger-foreground: #ff7676;
+  --info-danger-background:#70151626;
+  --info-danger-foreground: #701516;
   --info-danger-text: #b0b0b0;
   --info-help-background: #8ebeec26;
   --info-help-foreground: #5abfb5;
@@ -48,23 +48,23 @@
   --status-positive-text: #101010;
   --status-warning-background: #d9ba73;
   --status-warning-text: #101010;
-  --status-danger-background: #ff7676;
+  --status-danger-background: #701516;
   --status-danger-text: #101010;
-  --status-danger: #ff7676;
+  --status-danger: #701516;
   --status-positive: #5abfb5;
   --status-warning: #d9ba73;
   --status-yellow-400: #d9ba73;
   --status-green-600: #5abfb5;
   --primary-dark-600: #101010;
   --status-yellow-560: #d9ba73;
-  --status-red-500: #ff7676;
-  --status-red-530: #ff7676;
+  --status-red-500: #701516;
+  --status-red-530: #701516;
   --status-yellow-500: #d9ba73;
   --black-500: #272727;
   --green-360: #5abfb5;
   --yellow-360: #d9ba73;
   --yellow-300: #d9ba73;
-  --red-400: #ff7676;
+  --red-400: #701516;
   --primary-100: #b0b0b0;
   --primary-300: #b0b0b0;
   --primary-400: #b0b0b0;
@@ -83,10 +83,10 @@
   --premium-perk-pink: ${pink};
   --premium-perk-orange: #FF7038;
   --status-green-400: #5abfb5;
-  --button-danger-background: #701516;
-  --button-danger-background-hover: #ff7676;
+  --button-danger-background: #ff9999;
+  --button-danger-background-hover: #701516;
   --button-danger-background-active: #8ebeec;
-  --button-danger-background-disabled: #ff7676;
+  --button-danger-background-disabled: #701516;
   --button-positive-background: #5abfb5;
   --button-positive-background-hover: #86cd82;
   --button-positive-background-active: #14ba19;
@@ -96,14 +96,14 @@
   --button-secondary-background-active: #272727;
   --button-secondary-background-disabled: #b0b0b0;
   --button-outline-danger-text: #b0b0b0;
-  --button-outline-danger-border: #701516;
+  --button-outline-danger-border: #ff9999;
   --button-outline-danger-background: transparent;
-  --button-outline-danger-background-hover: #ff7676;
+  --button-outline-danger-background-hover: #701516;
   --button-outline-danger-text-hover: #101010;
-  --button-outline-danger-border-hover: #ff7676;
-  --button-outline-danger-background-active: #701516;
+  --button-outline-danger-border-hover: #701516;
+  --button-outline-danger-background-active: #ff9999;
   --button-outline-danger-text-active: #101010;
-  --button-outline-danger-border-active: #701516;
+  --button-outline-danger-border-active: #ff9999;
   --button-outline-positive-text: #b0b0b0;
   --button-outline-positive-border: #5abfb5;
   --button-outline-positive-background: transparent;
@@ -193,7 +193,7 @@ rect[mask="url(#svg-mask-status-idle)"] {
 }
 
 rect[mask="url(#svg-mask-status-dnd)"] {
-    fill: #701516;
+    fill: #ff9999;
 }
 
 rect[mask="url(#svg-mask-status-offline)"] {
@@ -206,7 +206,7 @@ rect[mask="url(#svg-mask-status-offline)"] {
   /* ---- Default Colors -- */
   --background: var(--background-secondary);
   --text-default: #777777;
-  --color-1: #ff7676;
+  --color-1: #701516;
   --color-2: #FF7038;
   --color-3: #d9ba73;
   --color-4: #86cd82;

@@ -3,7 +3,7 @@
 #
 # Nyx color theme
 #
-set notification-error-bg "#ff7676"
+set notification-error-bg "#701516"
 set notification-error-fg "#b0b0b0"
 set notification-warning-bg "#d9ba73"
 set notification-warning-fg "#272727"

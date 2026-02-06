@@ -1,7 +1,7 @@
 hi clear
 let g:colors_name = "nyx-darker"
   
-hi ALEErrorSign guibg=NONE guifg=#701516
+hi ALEErrorSign guibg=NONE guifg=#ff9999
 hi ALEWarningSign guibg=NONE guifg=#d9ba73
 hi BlinkCmpDoc guibg=#0a0a0a guifg=#b0b0b0
 hi BlinkCmpDocBorder guibg=#0a0a0a guifg=#759bc0
@@ -28,7 +28,7 @@ hi BlinkPairsDepth6 guibg=NONE guifg=#FF7038
 hi BlinkPairsMatchParen gui=bold guibg=NONE guifg=#FF7038
 hi BlinkPairsOrange guibg=NONE guifg=#8ebeec
 hi BlinkPairsPurple guibg=NONE guifg=#86cd82
-hi BlinkPairsUnmatched gui=bold,undercurl guibg=NONE guifg=#ff7676
+hi BlinkPairsUnmatched gui=bold,undercurl guibg=NONE guifg=#701516
 hi Bold gui=bold guibg=NONE guifg=#b0b0b0
 hi Boolean guibg=NONE guifg=#86cd82
 hi Character guibg=NONE guifg=#86cd82
@@ -45,27 +45,27 @@ hi CursorIM guibg=#b0b0b0 guifg=#101010
 hi CursorLine guibg=#272727
 hi CursorLineNr gui=bold guibg=NONE guifg=#FF7038
 hi Debug guibg=NONE guifg=#FF7038
-hi DiagnosticError guibg=NONE guifg=#701516
+hi DiagnosticError guibg=NONE guifg=#ff9999
 hi DiagnosticHint guibg=NONE guifg=#5abfb5
 hi DiagnosticInfo guibg=NONE guifg=#5abfb5
-hi DiagnosticUnderlineError gui=undercurl guibg=NONE guisp=#701516
+hi DiagnosticUnderlineError gui=undercurl guibg=NONE guisp=#ff9999
 hi DiagnosticUnderlineHint gui=undercurl guibg=NONE guisp=#5abfb5
 hi DiagnosticUnderlineInfo gui=undercurl guibg=NONE guisp=#5abfb5
 hi DiagnosticUnderlineWarn gui=undercurl guibg=NONE guisp=#d9ba73
 hi DiagnosticUnnecessary guibg=NONE guifg=#272727
-hi DiagnosticVirtualTextError guibg=#1a1111 guifg=#701516
+hi DiagnosticVirtualTextError guibg=#281e1e guifg=#ff9999
 hi DiagnosticVirtualTextHint guibg=#172221 guifg=#5abfb5
 hi DiagnosticVirtualTextInfo guibg=#172221 guifg=#5abfb5
 hi DiagnosticVirtualTextWarn guibg=#24211a guifg=#d9ba73
 hi DiagnosticWarn guibg=NONE guifg=#d9ba73
 hi DiffAdd guibg=#113512
 hi DiffChange guibg=#121519
-hi DiffDelete guibg=#281112
+hi DiffDelete guibg=#4c3232
 hi DiffText guibg=#254365
 hi Directory guibg=NONE guifg=#458ee6
 hi EndOfBuffer guibg=NONE guifg=#101010
-hi Error guibg=NONE guifg=#701516
-hi ErrorMsg guibg=NONE guifg=#701516
+hi Error guibg=NONE guifg=#ff9999
+hi ErrorMsg guibg=NONE guifg=#ff9999
 hi FloatBorder guibg=#0a0a0a guifg=#272727
 hi FloatTitle guibg=#0a0a0a guifg=#759bc0
 hi FoldColumn guibg=#101010 guifg=#50585d
@@ -86,14 +86,14 @@ hi GitGutterChange guibg=NONE guifg=#458ee6
 hi GitGutterChangeLineNr guibg=NONE guifg=#458ee6
 hi GitGutterDelete guibg=NONE guifg=#ff7676
 hi GitGutterDeleteLineNr guibg=NONE guifg=#ff7676
-hi GlyphPalette1 guibg=NONE guifg=#701516
+hi GlyphPalette1 guibg=NONE guifg=#ff9999
 hi GlyphPalette2 guibg=NONE guifg=#86cd82
 hi GlyphPalette3 guibg=NONE guifg=#d9ba73
 hi GlyphPalette4 guibg=NONE guifg=#458ee6
 hi GlyphPalette6 guibg=NONE guifg=#86cd82
 hi GlyphPalette7 guibg=NONE guifg=#b0b0b0
-hi GlyphPalette9 guibg=NONE guifg=#ff7676
-hi Identifier guibg=NONE guifg=#ff7676
+hi GlyphPalette9 guibg=NONE guifg=#701516
+hi Identifier guibg=NONE guifg=#701516
 hi IlluminatedWordRead guibg=#202020
 hi IlluminatedWordText guibg=#202020
 hi IlluminatedWordWrite guibg=#202020
@@ -122,7 +122,7 @@ hi MiniDiffSignChange guibg=NONE guifg=#458ee6
 hi MiniDiffSignDelete guibg=NONE guifg=#ff7676
 hi MiniFilesFile guibg=NONE guifg=#b0b0b0
 hi MiniFilesTitleFocused gui=bold guibg=#0a0a0a guifg=#759bc0
-hi MiniHipatternsFixme gui=bold guibg=#701516 guifg=#0d0d0d
+hi MiniHipatternsFixme gui=bold guibg=#ff9999 guifg=#0d0d0d
 hi MiniHipatternsHack gui=bold guibg=#d9ba73 guifg=#0d0d0d
 hi MiniHipatternsNote gui=bold guibg=#5abfb5 guifg=#0d0d0d
 hi MiniHipatternsTodo gui=bold guibg=#5abfb5 guifg=#0d0d0d
@@ -133,7 +133,7 @@ hi MiniIconsGreen guibg=NONE guifg=#86cd82
 hi MiniIconsGrey guibg=NONE guifg=#b0b0b0
 hi MiniIconsOrange guibg=NONE guifg=#FF7038
 hi MiniIconsPurple guibg=NONE guifg=#f2a4db
-hi MiniIconsRed guibg=NONE guifg=#ff7676
+hi MiniIconsRed guibg=NONE guifg=#701516
 hi MiniIconsYellow guibg=NONE guifg=#d9ba73
 hi MiniIndentscopePrefix gui=nocombine guibg=NONE
 hi MiniIndentscopeSymbol gui=nocombine guibg=NONE guifg=#8ebeec
@@ -160,7 +160,7 @@ hi MiniStatuslineModeCommand gui=bold guibg=#d9ba73 guifg=#0d0d0d
 hi MiniStatuslineModeInsert gui=bold guibg=#86cd82 guifg=#0d0d0d
 hi MiniStatuslineModeNormal gui=bold guibg=#458ee6 guifg=#0d0d0d
 hi MiniStatuslineModeOther gui=bold guibg=#5abfb5 guifg=#0d0d0d
-hi MiniStatuslineModeReplace gui=bold guibg=#ff7676 guifg=#0d0d0d
+hi MiniStatuslineModeReplace gui=bold guibg=#701516 guifg=#0d0d0d
 hi MiniStatuslineModeVisual gui=bold guibg=#f2a4db guifg=#0d0d0d
 hi MiniSurround guibg=#FF7038 guifg=#0d0d0d
 hi MiniTablineCurrent guibg=#272727 guifg=#b0b0b0
@@ -172,16 +172,16 @@ hi MiniTablineModifiedVisible guibg=#0c0c0c guifg=#d9ba73
 hi MiniTablineTabpagesection guibg=#272727 guifg=NONE
 hi MiniTablineVisible guibg=#0c0c0c guifg=#b0b0b0
 hi MiniTestEmphasis gui=bold guibg=NONE
-hi MiniTestFail gui=bold guibg=NONE guifg=#ff7676
+hi MiniTestFail gui=bold guibg=NONE guifg=#701516
 hi MiniTestPass gui=bold guibg=NONE guifg=#86cd82
-hi MiniTrailspace guibg=#ff7676
+hi MiniTrailspace guibg=#701516
 hi ModeMsg gui=bold guibg=NONE guifg=#777777
 hi MoreMsg guibg=NONE guifg=#458ee6
 hi MsgArea guibg=NONE guifg=#777777
 hi NeogitBranch guibg=NONE guifg=#f2a4db
 hi NeogitDiffAddHighlight guibg=#113512 guifg=#86cd82
 hi NeogitDiffContextHighlight guibg=#1c1c1c guifg=#777777
-hi NeogitDiffDeleteHighlight guibg=#281112 guifg=#ff7676
+hi NeogitDiffDeleteHighlight guibg=#4c3232 guifg=#ff7676
 hi NeogitHunkHeader guibg=#272727 guifg=#b0b0b0
 hi NeogitHunkHeaderHighlight guibg=#272727 guifg=#458ee6
 hi NeogitRemote guibg=NONE guifg=#f2a4db
@@ -189,7 +189,7 @@ hi NeotestAdapterName gui=bold guibg=NONE guifg=#f2a4db
 hi NeotestBorder guibg=NONE guifg=#458ee6
 hi NeotestDir guibg=NONE guifg=#458ee6
 hi NeotestExpandMarker guibg=NONE guifg=#777777
-hi NeotestFailed guibg=NONE guifg=#ff7676
+hi NeotestFailed guibg=NONE guifg=#701516
 hi NeotestFile guibg=NONE guifg=#5abfb5
 hi NeotestFocused guibg=NONE guifg=#d9ba73
 hi NeotestIndent guibg=NONE guifg=#777777
@@ -224,7 +224,7 @@ hi Sneak guibg=#f2a4db guifg=#272727
 hi SneakScope guibg=#393939
 hi Special guibg=NONE guifg=#FF7038
 hi SpecialKey guibg=NONE guifg=#777777
-hi SpellBad gui=undercurl guibg=NONE guisp=#701516
+hi SpellBad gui=undercurl guibg=NONE guisp=#ff9999
 hi SpellCap gui=undercurl guibg=NONE guisp=#d9ba73
 hi SpellLocal gui=undercurl guibg=NONE guisp=#5abfb5
 hi SpellRare gui=undercurl guibg=NONE guisp=#5abfb5
@@ -232,7 +232,7 @@ hi Statement guibg=NONE guifg=#f2a4db
 hi StatusLine guibg=#0c0c0c guifg=#777777
 hi StatusLineNC guibg=#0c0c0c guifg=#272727
 hi String guibg=NONE guifg=#86cd82
-hi Substitute guibg=#ff7676 guifg=#0d0d0d
+hi Substitute guibg=#701516 guifg=#0d0d0d
 hi TabLine guibg=#0c0c0c guifg=#272727
 hi TabLineFill guibg=#0d0d0d
 hi TabLineSel guibg=#458ee6 guifg=#0d0d0d
@@ -246,7 +246,7 @@ hi VimwikiHeader1 gui=bold guibg=NONE guifg=#86cd82
 hi VimwikiHeader2 gui=bold guibg=NONE guifg=#458ee6
 hi VimwikiHeader3 gui=bold guibg=NONE guifg=#f2a4db
 hi VimwikiHeader4 gui=bold guibg=NONE guifg=#d9ba73
-hi VimwikiHeader5 gui=bold guibg=NONE guifg=#ff7676
+hi VimwikiHeader5 gui=bold guibg=NONE guifg=#701516
 hi VimwikiHeader6 gui=bold guibg=NONE guifg=#5abfb5
 hi VimwikiHeader7 gui=bold guibg=NONE guifg=#f2a4db
 hi VimwikiHeader8 gui=bold guibg=NONE guifg=#FF7038
@@ -269,9 +269,9 @@ hi diffFile guibg=NONE guifg=#458ee6
 hi diffIndexLine guibg=NONE guifg=#f2a4db
 hi diffLine guibg=NONE guifg=#50585d
 hi diffNewFile guibg=#113512 guifg=#8ebeec
-hi diffOldFile guibg=#281112 guifg=#8ebeec
-hi diffRemoved guibg=#281112 guifg=#ff7676
-hi healthError guibg=NONE guifg=#701516
+hi diffOldFile guibg=#4c3232 guifg=#8ebeec
+hi diffRemoved guibg=#4c3232 guifg=#ff7676
+hi healthError guibg=NONE guifg=#ff9999
 hi healthSuccess guibg=NONE guifg=#86cd82
 hi healthWarning guibg=NONE guifg=#d9ba73
 hi helpCommand guibg=#272727 guifg=#458ee6
