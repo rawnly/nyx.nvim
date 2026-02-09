@@ -28,7 +28,7 @@
   --color-nyx-darker-dark5: oklch(from #b0b0b0 l c h);
   --color-nyx-darker-diff-add: oklch(from #113512 l c h);
   --color-nyx-darker-diff-change: oklch(from #121519 l c h);
-  --color-nyx-darker-diff-delete: oklch(from #4c3232 l c h);
+  --color-nyx-darker-diff-delete: oklch(from #4c2121 l c h);
   --color-nyx-darker-diff-text: var(--color-nyx-darker-blue7);
   --color-nyx-darker-error: var(--color-nyx-darker-red1);
   --color-nyx-darker-fg: oklch(from #b0b0b0 l c h);
@@ -59,9 +59,9 @@
   --color-nyx-darker-rainbow6: var(--color-nyx-darker-purple);
   --color-nyx-darker-rainbow7: var(--color-nyx-darker-orange);
   --color-nyx-darker-rainbow8: var(--color-nyx-darker-red);
-  --color-nyx-darker-red: oklch(from #701516 l c h);
-  --color-nyx-darker-red-bright: oklch(from #ff9999 l c h);
-  --color-nyx-darker-red1: oklch(from #ff9999 l c h);
+  --color-nyx-darker-red: oklch(from #ff9999 l c h);
+  --color-nyx-darker-red-bright: oklch(from #ff5555 l c h);
+  --color-nyx-darker-red1: oklch(from #ff5555 l c h);
   --color-nyx-darker-teal: oklch(from #5abfb5 l c h);
   --color-nyx-darker-todo: var(--color-nyx-darker-blue);
   --color-nyx-darker-warning: var(--color-nyx-darker-yellow);

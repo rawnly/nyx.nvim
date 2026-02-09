@@ -17,7 +17,7 @@ Color=176,176,176
 Color=13,13,13
 
 [Color1]
-Color=112,21,22
+Color=255,153,153
 
 [Color2]
 Color=134,205,130
@@ -41,7 +41,7 @@ Color=119,119,119
 Color=39,39,39
 
 [Color1Intense]
-Color=255,153,153
+Color=255,85,85
 
 [Color2Intense]
 Color=90,191,181

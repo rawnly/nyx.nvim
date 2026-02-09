@@ -16,9 +16,9 @@ constructor = { fg = "#d9ba73" }
 "diagnostic.warning" = { underline = { style = "curl" } }
 "diff.delta" = { bg = "#121519", fg = "#458ee6" }
 "diff.delta.moved" = { fg = "#458ee6" }
-"diff.minus" = { bg = "#4c3232", fg = "#ff7676" }
+"diff.minus" = { bg = "#4c2121", fg = "#ff7676" }
 "diff.plus" = { bg = "#113512", fg = "#86cd82" }
-error = { fg = "#ff9999" }
+error = { fg = "#ff5555" }
 function = { fg = "#458ee6" }
 "function.builtin" = { fg = "#458ee6" }
 "function.macro" = { fg = "#f2a4db" }
@@ -26,14 +26,14 @@ function = { fg = "#458ee6" }
 "function.special" = { fg = "#f2a4db" }
 hint = { fg = "#5abfb5" }
 info = { fg = "#5abfb5" }
-keyword = { fg = "#701516", modifiers = ["italic"] }
+keyword = { fg = "#ff9999", modifiers = ["italic"] }
 "keyword.control" = { fg = "#f2a4db" }
 "keyword.control.conditional" = { fg = "#f2a4db" }
 "keyword.control.exception" = { fg = "#f2a4db" }
 "keyword.control.repeat" = { fg = "#f2a4db" }
-"keyword.control.return" = { fg = "#701516" }
+"keyword.control.return" = { fg = "#ff9999" }
 "keyword.directive" = { fg = "#f2a4db" }
-"keyword.function" = { fg = "#701516" }
+"keyword.function" = { fg = "#ff9999" }
 "keyword.operator" = { fg = "#f2a4db" }
 label = { fg = "#458ee6" }
 "markup.bold" = { fg = "#b0b0b0", modifiers = ["bold"] }
@@ -119,9 +119,9 @@ dark6 = "#777777"
 dark7 = "#b0b0b0"
 "diff.add" = "#113512"
 "diff.change" = "#121519"
-"diff.delete" = "#4c3232"
+"diff.delete" = "#4c2121"
 "diff.text" = "#254365"
-error = "#ff9999"
+error = "#ff5555"
 fg = "#b0b0b0"
 fg_dark = "#777777"
 fg_darker = "#50585d"
@@ -147,12 +147,12 @@ rainbow = "#86cd82"
 "rainbow.2" = "#458ee6"
 "rainbow.3" = "#f2a4db"
 "rainbow.4" = "#d9ba73"
-"rainbow.5" = "#701516"
+"rainbow.5" = "#ff9999"
 "rainbow.6" = "#5abfb5"
 "rainbow.7" = "#f2a4db"
 "rainbow.8" = "#FF7038"
-red = "#701516"
-red1 = "#ff9999"
+red = "#ff9999"
+red1 = "#ff5555"
 teal = "#5abfb5"
 "terminal.black" = "#0d0d0d"
 "terminal.black_bright" = "#272727"
@@ -164,8 +164,8 @@ teal = "#5abfb5"
 "terminal.green_bright" = "#5abfb5"
 "terminal.magenta" = "#f2a4db"
 "terminal.magenta_bright" = "#f2a4db"
-"terminal.red" = "#701516"
-"terminal.red_bright" = "#ff9999"
+"terminal.red" = "#ff9999"
+"terminal.red_bright" = "#ff5555"
 "terminal.white" = "#777777"
 "terminal.white_bright" = "#b0b0b0"
 "terminal.yellow" = "#FF7038"

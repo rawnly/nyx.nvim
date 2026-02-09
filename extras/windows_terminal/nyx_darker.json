@@ -9,7 +9,7 @@
     "brightCyan": "#5abfb5",
     "brightGreen": "#86cd82",
     "brightPurple": "#f2a4db",
-    "brightRed": "#701516",
+    "brightRed": "#ff9999",
     "brightWhite": "#b0b0b0",
     "brightYellow": "#d9ba73",
     "cursorColor": "#b0b0b0",
@@ -18,7 +18,7 @@
     "green": "#86cd82",
     "name": "Nyx Darker",
     "purple": "#f2a4db",
-    "red": "#701516",
+    "red": "#ff9999",
     "selectionBackground": "#393939",
     "white": "#777777",
     "yellow": "#d9ba73"

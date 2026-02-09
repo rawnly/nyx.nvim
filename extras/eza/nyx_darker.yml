@@ -24,7 +24,7 @@ perms:
   other_write: { foreground: "#f2a4db" }
   other_execute: { foreground: "#86cd82" }
   special_user_file: { foreground: "#f2a4db" }
-  special_other: { foreground: "#ff9999" }
+  special_other: { foreground: "#ff5555" }
   attribute: { foreground: "#b0b0b0" }
 
 size:
@@ -56,7 +56,7 @@ links:
 git:
   new: { foreground: "#86cd82" }
   modified: { foreground: "#f2a4db" }
-  deleted: { foreground: "#ff9999" }
+  deleted: { foreground: "#ff5555" }
   renamed: { foreground: "#8ebeec" }
   typechange: { foreground: "#8ebeec" }
   ignored: { foreground: "#777777" }
@@ -80,7 +80,7 @@ file_type:
   video: { foreground: "#8ebeec" }
   music: { foreground: "#86cd82" }
   lossless: { foreground: "#14ba19" }
-  crypto: { foreground: "#ff9999" }
+  crypto: { foreground: "#ff5555" }
   document: { foreground: "#777777" }
   compressed: { foreground: "#FF7038" }
   temp: { foreground: "#b0b0b0" }

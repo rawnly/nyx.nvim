@@ -8,7 +8,7 @@ fish_color_quote d9ba73
 fish_color_redirection b0b0b0
 fish_color_end FF7038
 fish_color_option f2a4db
-fish_color_error 701516
+fish_color_error ff9999
 fish_color_param f2a4db
 fish_color_comment 50585d
 fish_color_selection --background=393939
