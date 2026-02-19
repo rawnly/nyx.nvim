@@ -1007,7 +1007,7 @@ local highlights = {
     undercurl = true
   },
   DiagnosticUnnecessary = {
-    fg = "#ebebeb"
+    fg = "#969ba5"
   },
   DiagnosticVirtualTextError = {
     bg = "#ece2df",

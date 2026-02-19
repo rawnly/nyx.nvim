@@ -52,7 +52,7 @@ hi DiagnosticUnderlineError gui=undercurl guibg=NONE guisp=#ff5555
 hi DiagnosticUnderlineHint gui=undercurl guibg=NONE guisp=#5abfb5
 hi DiagnosticUnderlineInfo gui=undercurl guibg=NONE guisp=#5abfb5
 hi DiagnosticUnderlineWarn gui=undercurl guibg=NONE guisp=#d9ba73
-hi DiagnosticUnnecessary guibg=NONE guifg=#272727
+hi DiagnosticUnnecessary guibg=NONE guifg=#50585d
 hi DiagnosticVirtualTextError guibg=#281717 guifg=#ff5555
 hi DiagnosticVirtualTextHint guibg=#172221 guifg=#5abfb5
 hi DiagnosticVirtualTextInfo guibg=#172221 guifg=#5abfb5
