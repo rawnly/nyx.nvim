@@ -4,6 +4,11 @@ local M = {}
 ---@type {light?: string, dark?: string}
 M.styles = {}
 
+---Clear nyx cache files
+function M.clear_cache()
+  require("nyx.util").cache.clear()
+end
+
 ---@param opts? nyx.Config
 function M.load(opts)
   opts = require("nyx.config").extend(opts)
